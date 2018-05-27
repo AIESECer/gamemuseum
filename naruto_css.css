@@ -1,0 +1,160 @@
+*
+Design d'exemple du Site du Zér0
+Réalisé par zaz, venom et mateo21
+http://www.siteduzero.com/
+*/
+
+body
+{
+   width: 760px;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;    
+   background-image: url("images/fond.png");
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* L'en-tête */
+
+#en_tete
+{
+   width: 760px;
+   height: 100px;
+   background-image: url("images/banniere.png");
+   background-repeat: no-repeat;
+   margin-bottom: 10px;
+}
+
+
+/* Le menu */
+
+#menu
+{
+   width: 95px;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#menu a{
+font-size:14px;
+
+}
+
+.element_menu
+{
+   background-color: #626262;
+   background-image: url("images/motif.png");
+   background-repeat: repeat-x;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   border: 2px solid black;
+   
+   margin-bottom: 20px;
+}
+
+
+/* Quelques effets sur les menus */
+
+
+.element_menu h3
+{    
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+
+.element_menu ul
+{
+   list-style-image: url("images/puce.png");
+   padding: 0px;
+   padding-left: 20px;
+   margin: 0px;
+   margin-bottom: 5px;
+}
+
+.element_menu a
+{
+   color: #B3B3B3;
+}
+
+.element_menu a:hover
+{
+   background-color: #B3B3B3;
+   color: black;
+}
+
+
+/* Le corps de la page */
+
+#corps
+{
+  margin-left:25px;
+margin-bottom:25px;
+margin-right:25px;
+padding:05px;
+   background-color: #000000;
+   background-repeat: repeat-x;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size:12px;
+   font-style:normal;
+   color:#FFFFFF;
+   
+   border: 2px solid black;
+}
+
+#corps h1
+{
+   color: #FFCC00;
+   font-style: oblique;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size:14px
+}
+
+#corps h2
+{
+   height: 30px;
+   background-repeat: no-repeat;
+   font-size:12px;
+   padding-left: 30px;
+   color: #FFFFFF;
+   text-align: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#corps h3
+{
+   height: 30px;
+   background-repeat: no-repeat;
+   font-size:10px
+   padding-left: 30px;
+   color: #FFFFFF;
+   text-align: left;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+/* Le pied de page (qui se trouve tout en bas, en général pour les copyrights) */
+
+#pied_de_page
+{
+   padding: 5px;
+
+   text-align: center;
+
+   color: #FFFFFF;
+   background-color: #000000;
+   background-image: url("images/motif.png");
+   background-repeat: repeat-x;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   border: 2px solid black;
+}
+
+
+a{
+color: #FFCC00;
+font-family: Helevtica, Verdana, Arial, serif;
+font-size:13px;
+text-decoration:none;
+}
+a:hover{
+color: #FFCC00;
+font-family: Helevtica, Verdana, Arial, serif;
+font-size:13px;
+text-decoration: underline;
+
+}

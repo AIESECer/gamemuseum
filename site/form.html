@@ -1,0 +1,33 @@
+<form vname="FormName" action="site/formmail.php" method="post" enctype="multipart/form-data" name="form">
+<table border="0" cellpadding="5" cellspacing="0" width="137">
+	<tr>
+		<td>Exp&eacute;diteur:</td>
+		<td><input type="text" name="email" size="35"></td>
+	</tr>
+	<tr>
+		<td>Sujet</td>
+		<td><input type="text" name="subject" size="35"></td>
+	</tr>
+	<tr>
+		<td>Message</td>
+		<td><textarea rows="12" name="msg" cols="60"></textarea></td>
+	</tr>
+	<tr>
+		<td>Fichier joint:</td>
+		<td><input type="hidden" name="MAX_FILE_SIZE" value="100000"><input name="NomFichier" type="file" size="16"></td>
+	</tr>
+	<tr>
+		<td>Priorit&eacute;:</td>
+		<td>
+			<div align="left">
+				<select name="priority" size="1">
+					<option value="1">Urgent
+					<option value="2">Haute
+					<option value="3">Moyenne
+					<option value="4">Basse
+					<option value="5">Tr&egrave;s basse
+				</select> <input type="submit" value="Envoyer"></div>
+		</td>
+	</tr>
+</table>
+</form>

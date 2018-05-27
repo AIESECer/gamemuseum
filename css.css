@@ -1,0 +1,166 @@
+/* 
+Nom:css.css 
+Auteur:Yami(yami_ne1(à)hotmail.com
+Role: le style css de la page
+Creer le: Dimanche-25-Mars-2007 a 23:21
+Derniere modification: 25-Mars-2007
+*/
+
+body
+{
+width:760;
+margin:auto;
+margin-top:20px;
+margin-bottom:20px;
+background-color:#000000
+}
+#en_tete
+{
+width:760;
+height:100;
+background-image:url("images/banniere.png");
+background-repeat:no-repeat;
+margin-bottom:10px
+}
+#menu
+{
+float: left;
+width: 120px;
+}
+.element_menu
+{
+background-color: #000000;
+background-image: url("images/motif.png");
+background-repeat: repeat-x;
+border: 1px solid #0099CC;
+margin-bottom: 0px;
+text-align:left;
+   
+}
+.element_menu h3
+{
+color: #FFCC00  ;
+font-family: Helevtica, Verdana, Arial, serif;
+font-size:14px;
+text-align: Left;
+margin-left:3px;
+margin-top:3px;
+}
+.element_menu ul
+{
+list-style-image:url("images/puce.png");
+padding: 0px;
+padding-left: 15px;
+margin: 0px;
+margin-bottom: 5px;
+text-align:left;
+}
+.element_menu a
+{
+color: #FFFFFF;
+font-family: Helevtica, Verdana, Arial, serif;
+font-size:13px;
+text-decoration:none;
+}
+
+.element_menu a:hover
+{
+color: #FFCC00;
+}
+#corps
+{
+margin-left:20px;
+margin-bottom:20px;
+padding:05px;
+color: #FFFFFF;
+background-color: #000000;
+background-image: url("images/motif.png");
+background-repeat: repeat-x;
+border: 1px solid #0099CC;
+font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+font-size:12px;
+
+}
+#corps h1 /* Tous les titres h1 du corps */
+{
+   color: #FFCC00;
+   text-align: left;
+   font-family: helevtica, Verdana, Arial, sans-serif;
+   font-size:14px
+}
+
+#corps h2 /* Tous les titres h2 du corps */
+{
+   height: 30px;
+
+   background-image: url("images/titre.png"); 
+   background-repeat: no-repeat; 
+   
+   padding-left: 30px;
+   color: #FFFFFF;
+   text-align: left;
+   
+   font-family: helevtica, Verdana, Arial, sans-serif;
+   font-size:13px
+}
+#corps .sous_titre
+{
+padding-left: 10px;
+font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+font-weight: bold;
+font-size:12px;
+}
+#corps p
+{
+padding-left: 10px;
+font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+font-size:12px;
+
+
+}
+#corps a{
+color: #FFCC00;
+font-family: Helevtica, Verdana, Arial, serif;
+font-size:13px;
+text-decoration:none;
+}
+#corps a:hover{
+color: #FFCC00;
+font-family: Helevtica, Verdana, Arial, serif;
+font-size:13px;
+text-decoration: underline;
+
+}
+#pied_de_page
+{
+
+   padding: 5px;
+
+   text-align: center;
+
+   color: #FFFFFF;
+   background-color: #000000;
+   background-image: url("images/motif.png");
+   background-repeat: repeat-x;
+   border: 1px solid #0099CC;
+   font-family:Verdana, Arial, Helvetica, sans-serif;
+   font-size:12px;
+}
+.1stlettre {
+	color: #FFCC00;
+	font-weight: bold;
+}
+a{
+color: #FFCC00;
+font-family: Helevtica, Verdana, Arial, serif;
+font-size:13px;
+text-decoration:none;
+}
+a:hover{
+color: #FFCC00;
+font-family: Helevtica, Verdana, Arial, serif;
+font-size:13px;
+text-decoration: underline;
+
+}
+</style>
